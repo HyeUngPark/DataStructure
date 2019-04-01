@@ -4,6 +4,14 @@
 int queue[MAX];
 int front, rear;
 
+void init_queue(){
+    front = rear = 0;
+}
+
+void clear_queue(){
+    front = rear;
+}
+
 int put(int k){
     if((rear+1) % MAX == front){
         printf("QUEUE OVER FLOW!\n\n");
@@ -27,20 +35,12 @@ int get(){
     }
 }
 
-void init_queue(){
-    front = rear = 0;
-}
-
-void clear_queue(){
-    front = rear;
-}
-
 void print_queue(){
     printf("\n");
     for(int i=front; i!=rear; ++i % MAX){
         printf("queue[%d]=%d\n",i,queue[i]);
     }
-    if((front+1) % MAX == 0){
+    if(front == rear){
         printf("queque is empty!!! \n");
     }
     printf("\n");
@@ -57,7 +57,7 @@ void main(){
     put(0);
     put(0);
     put(10);
-    put(20);
+    put(20); // 10번째 값
     printf("####################################################################################################################################\n");
     print_queue();
     for(int i=0; i<3; i++){
@@ -68,6 +68,9 @@ void main(){
     for(int i=0; i<7; i++){
         get();
     }
+    put(0);
+    put(0);
+    put(10);
     printf("####################################################################################################################################\n");
     clear_queue();
     print_queue();
