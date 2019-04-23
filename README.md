@@ -7,7 +7,7 @@
 > Queue using Array
 
 ### Stack
-> stack using Array
+> Stack using Array
 
 ### Tree
 > Tree using LinkedList
