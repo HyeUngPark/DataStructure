@@ -1,4 +1,4 @@
-##### Data Structure
+# Data Structure
 
 ### LinkedList
 > SimpleLinkedList using struct
