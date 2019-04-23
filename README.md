@@ -13,8 +13,8 @@
 > Tree using LinkedList
 
 ### Sort
-> Selection Sort Using Array
-> Insertion Sort Using Array
-> Bubble Sort Using Array
-> Shell Sort Using Array
-> Quick Sort Using Array
+> Selection Sort Using Array  
+> Insertion Sort Using Array  
+> Bubble Sort Using Array  
+> Shell Sort Using Array  
+> Quick Sort Using Array  
