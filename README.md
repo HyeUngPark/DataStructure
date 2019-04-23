@@ -1,1 +1,4 @@
-C Algorithm Study
+Data Structure
+
+### LinkedList
+> SimpleLinkedList
