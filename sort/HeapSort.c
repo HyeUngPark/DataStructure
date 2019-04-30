@@ -39,7 +39,6 @@ void insert(int array[], int *hn, int v){
 }
 
 int delete(int array[], int *n){
-    // printf("delete v = %d\n",*n);
     int v = array[1];
     array[1] = array[(*n)--];
     downHeap(array, *n, 1);
