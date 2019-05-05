@@ -20,3 +20,7 @@
 > Quick Sort Using Array  
 > Radix Sort using Queue&Array
 > Heap Sort using Array&Tree
+> Merge Sort using Array 
+
+Reference c로 배우는 알고리즘 1(이재규)
+          wikipedia
